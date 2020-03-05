@@ -116,7 +116,17 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="root:events@docker-difel110185.eastus2.cloudapp.azure.com" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@6c075734" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:events@docker-difel110185.eastus2.cloudapp.azure.com" type="7427dc5b:ServiceModel$ServiceGroupNode" />
                 <item name="com.intellij.database.console.session.MessageBusSession@16c3b715" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:events@docker-difel110185.eastus2.cloudapp.azure.com" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@2d535bde" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
             </expand>
             <select />
@@ -152,7 +162,7 @@
       <workItem from="1582581944566" duration="75000" />
       <workItem from="1582821906898" duration="539000" />
       <workItem from="1582826680733" duration="3271000" />
-      <workItem from="1583430764681" duration="4998000" />
+      <workItem from="1583430764681" duration="6876000" />
     </task>
     <servers />
   </component>
