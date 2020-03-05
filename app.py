@@ -21,20 +21,24 @@ with open('app_conf.yml', 'r') as f:
 def report_goals_scored(goal):
     try:
         client = KafkaClient(hosts="{}:{}".format(app_config["kafka"]["domain"], app_config["kafka"]["port"]))
+        logger.info(client)
         topic = client.topics[app_config["kafka"]["topic"]]
-
+        logger.info(topic)
         producer = topic.get_sync_producer()
+        logger.info(producer)
         msg = {
             "type": "goals_scored",
             "datetime": datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S"),
             "payload": goal
         }
         msg_str = json.dumps(msg)
+
         producer.produce(msg_str.encode('utf-8'))
 
         logger.info("Goal scored reported successfully: {}".format(goal))
-    except:
-        logger.error("Service error while storing the goal scored")
+    except Exception as e:
+        logger.error(e.args)
+        return NoContent, 500
 
     return NoContent, 201
 
@@ -56,6 +60,7 @@ def report_cards_received(card):
         logger.info("Card received reported successfully: {}".format(card))
     except:
         logger.error("Service error while storing the card received")
+        return NoContent, 500
 
     return NoContent, 201
 

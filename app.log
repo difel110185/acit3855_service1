@@ -1069,3 +1069,21 @@
 2020-02-27 09:21:32,021 - basicLogger - ERROR - Service error while storing the card received
 2020-02-27 09:21:32,101 - basicLogger - ERROR - Service error while storing the card received
 2020-02-27 09:21:32,217 - basicLogger - ERROR - Service error while storing the card received
+2020-03-05 10:25:25,327 - basicLogger - ERROR - Service error while storing the goal scored
+2020-03-05 10:26:31,363 - basicLogger - ERROR - Service error while storing the goal scored
+2020-03-05 10:26:52,506 - basicLogger - ERROR - Service error while storing the goal scored
+2020-03-05 10:28:48,083 - basicLogger - ERROR - Service error while storing the goal scored
+2020-03-05 10:30:24,553 - basicLogger - ERROR - Service error while storing the goal scored
+2020-03-05 10:34:43,875 - basicLogger - ERROR - ('Unable to connect to a broker to fetch metadata. See logs.',)
+2020-03-05 10:38:08,163 - basicLogger - INFO - <pykafka.client.KafkaClient at 0x103fdddd0 (hosts=docker-difel110185.eastus2.cloudapp.azure.com:9092)>
+2020-03-05 10:38:08,334 - basicLogger - INFO - <pykafka.topic.Topic at 0x103fddfd0 (name=b'events')>
+2020-03-05 10:38:08,335 - basicLogger - INFO - <pykafka.producer.Producer at 0x103fa6350>
+2020-03-05 10:38:08,521 - basicLogger - INFO - Goal scored reported successfully: {'datetime': '2016-08-29T09:12:33.001000+00:00', 'player': 'Messi class docker'}
+2020-03-05 10:39:27,842 - basicLogger - INFO - <pykafka.client.KafkaClient at 0x103fa9e90 (hosts=docker-difel110185.eastus2.cloudapp.azure.com:9092)>
+2020-03-05 10:39:28,025 - basicLogger - INFO - <pykafka.topic.Topic at 0x103fd90d0 (name=b'events')>
+2020-03-05 10:39:28,026 - basicLogger - INFO - <pykafka.producer.Producer at 0x103fa6e90>
+2020-03-05 10:39:28,115 - basicLogger - INFO - Goal scored reported successfully: {'datetime': '2016-08-29T09:12:33.001000+00:00', 'player': 'Messi class docker'}
+2020-03-05 10:46:10,617 - basicLogger - INFO - <pykafka.client.KafkaClient at 0x103fbbe10 (hosts=docker-difel110185.eastus2.cloudapp.azure.com:9092)>
+2020-03-05 10:46:10,786 - basicLogger - INFO - <pykafka.topic.Topic at 0x103fa6c50 (name=b'events')>
+2020-03-05 10:46:10,786 - basicLogger - INFO - <pykafka.producer.Producer at 0x103fd91d0>
+2020-03-05 10:46:10,875 - basicLogger - INFO - Goal scored reported successfully: {'datetime': '2016-08-29T09:12:33.001000+00:00', 'player': 'Messi class docker 2'}
