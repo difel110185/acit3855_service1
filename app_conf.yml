@@ -1,5 +1,5 @@
 version: 1
 kafka:
-  domain: "localhost"
+  domain: "docker-difel110185.eastus2.cloudapp.azure.com"
   port: "9092"
   topic: "events"
